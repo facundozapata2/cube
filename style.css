@@ -1,3 +1,10 @@
+img{
+    width: 200px;
+}
+
+video{
+    width: 3rem;
+}
 
 *{
     margin: 0;
