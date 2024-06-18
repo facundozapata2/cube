@@ -1,11 +1,3 @@
-img{
-    width: 200px;
-}
-
-video{
-    width: 3rem;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -288,6 +280,11 @@ h1{
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+.phone-container img{
+    width: 13rem;
+}
+
 
 /*feactures styles*/
 
