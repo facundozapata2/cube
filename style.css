@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -285,7 +286,6 @@ h1{
     width: 13rem;
 }
 
-
 /*feactures styles*/
 
 .feacture-container{
@@ -377,6 +377,9 @@ h1{
 
 }
 
+.subscribe-img img{
+    width: 20rem;
+}
 
 @media screen and (min-width: 784px) {
 
@@ -430,7 +433,6 @@ h1{
 
 .footer-container img{
     width: 2rem;
-    filter: invert(100%)
 }
 
 .footer-brand{
