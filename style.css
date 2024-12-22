@@ -1,39 +1,52 @@
+/* fonts */
+/* roboto */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --yellow-color: #e2df1c;
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
     color: #fff;
+    /* outline: 1px solid #f00; */
+}
+
+html{
+    font-family: 'roboto', sans-serif;
 }
 
 body{
     background-color: #0a0a0f;
+    width: 100%;
 }
 
 .wrapper{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 25px;
+    gap: 1rem;
 }
 
 /*estilos al header*/
 
 .header-container{
     display: flex;
-    justify-content: space-around;
-    margin: 15px;
+    justify-content: center;
+    margin: 1rem;
     align-items: center;
     flex-wrap: wrap;
     flex-grow: 1;
-    gap: 10px;
+    gap: .5rem;
 }
+
 
 
 .brand{
     display: flex;
-    gap: 15px;
+    gap: 1rem;
     align-items: center;
 }
 
@@ -44,12 +57,12 @@ body{
 }
 
 h1{
-    color: #e2df1c;
+    color: var(--yellow-color);
 }
 
 .list{
     display: flex;
-    gap: 15px;
+    gap: 1rem;
 }
 
 .nav-bar ul{
@@ -57,7 +70,7 @@ h1{
 }
 
 .sign-in button{
-    background-color: #e2df1c;
+    background-color: var(--yellow-color);
     padding: 5px 10px;
     border-radius: 10px;
     color: #000;
@@ -70,12 +83,13 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 15px;
+    word-wrap: break-word;
+    gap: 1rem;
     text-align: center;
 }
 
 .section-header span:first-child{
-    color: #e2df1c;
+    color: var(--yellow-color);
 }
 
 /*estilos al social media */
@@ -84,7 +98,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 1rem;
 }
 
 .social-media{
@@ -135,14 +149,14 @@ h1{
 }
 
 .why-cube-header span:first-child{
-    color: #e2df1c;
+    color: var(--yellow-color);
 }
 
 /*why cube estilos*/
 
 .why-cube-container span{
     font-size: 1.5rem;
-    color: #e2df1c;
+    color: var(--yellow-color);
 }
 
 .why-cube-container img{
@@ -158,7 +172,7 @@ h1{
 
 }
 
-/*adaptar las card a desktop*/
+/*adaptar card a desktop*/
 
 @media screen and (min-width: 784px) {
     .why-cube-container{
@@ -221,6 +235,13 @@ h1{
     background-color: #1d1515;
     padding: 15px 20px;
     border-radius: 15px;
+}
+
+.acces-ind{
+    display: flex;
+    align-items: center;
+    /* margin: .4rem; */
+    gap: .4rem;
 }
 
 /* adapta a desktop*/
@@ -367,7 +388,7 @@ h1{
 .subscribe-input button{
     color: #000;
     padding: 5px 15px;
-    background-color: #e2df1c;
+    background-color: var(--yellow-color);
     border: none;
     border-radius: 15px;
 }
@@ -418,7 +439,7 @@ h1{
     width: auto;
     color: #000;
     padding: 5px 15px;
-    background-color: #e2df1c;
+    background-color: var(--yellow-color);
     border-radius: 15px;
     border: none;
 }
